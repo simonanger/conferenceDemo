@@ -18,7 +18,6 @@ public class Session {
             joinColumns = @JoinColumn(name = "session_id"),
             inverseJoinColumns = @JoinColumn(name = "speaker_id")
     )
-
     private List<Speaker> speakers;
 
     public Session() {
